@@ -1,0 +1,546 @@
+      body {
+          background-color: #f5f8fa;
+          font-family: Arial, sans-serif;
+          color: #263c46;
+      }
+
+      /* NAVBAR */
+
+      .navbar {
+          background-color: white;
+          padding: 16px 0;
+          box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+      }
+
+      .navbar-brand {
+          font-size: 23px;
+          font-weight: 700;
+          color: #167c70;
+      }
+
+      .navbar-brand:hover {
+          color: #105f56;
+      }
+
+      .nav-link {
+          color: #52666f;
+          font-weight: 500;
+      }
+
+      .nav-link:hover {
+          color: #167c70;
+      }
+
+      /* HERO */
+
+      .hero {
+          background: linear-gradient(120deg, #e1f2ef, #edf5f8);
+          border-radius: 20px;
+          padding: 65px 50px;
+          margin-top: 35px;
+          margin-bottom: 55px;
+      }
+
+      .hero-label {
+          color: #167c70;
+          font-weight: 700;
+          text-transform: uppercase;
+          font-size: 13px;
+          letter-spacing: 1px;
+      }
+
+      .hero h1 {
+          font-size: clamp(30px, 5vw, 48px);
+          font-weight: 700;
+          max-width: 650px;
+          line-height: 1.2;
+          margin: 15px 0;
+          color: #193b45;
+      }
+
+      .hero p {
+          color: #60747c;
+          max-width: 550px;
+          line-height: 1.7;
+      }
+
+      .hero-icon {
+          font-size: 110px;
+          color: #167c70;
+          opacity: 0.8;
+      }
+
+      /* ESPECIALIDADES */
+
+      .section-title {
+          font-weight: 700;
+          color: #193b45;
+      }
+
+      .section-subtitle {
+          color: #74858c;
+      }
+
+      .especialidad-card {
+          background-color: white;
+          border: none;
+          border-radius: 16px;
+          transition: all 0.25s ease;
+          height: 100%;
+      }
+
+      .especialidad-card:hover {
+          transform: translateY(-6px);
+          box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+      }
+
+      .icono-especialidad {
+          width: 55px;
+          height: 55px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #e6f4f1;
+          color: #167c70;
+          border-radius: 14px;
+          font-size: 25px;
+          margin-bottom: 22px;
+      }
+
+      .especialidad-card h5 {
+          font-weight: 700;
+          color: #193b45;
+          margin-bottom: 12px;
+      }
+
+      .especialidad-card p {
+          color: #74858c;
+          font-size: 14px;
+          line-height: 1.6;
+          min-height: 45px;
+      }
+
+      .btn-especialidad {
+          background-color: #167c70;
+          color: white;
+          border-radius: 8px;
+          padding: 10px 18px;
+          font-weight: 600;
+          border: none;
+      }
+
+      .btn-especialidad:hover {
+          background-color: #105f56;
+          color: white;
+      }
+
+      /* FOOTER */
+
+      footer {
+          background-color: #193b45;
+          color: #d5e2e5;
+          margin-top: 80px;
+          padding: 30px 0;
+      }
+
+      @media (max-width: 768px) {
+          .hero {
+              padding: 40px 25px;
+              text-align: center;
+          }
+
+          .hero p {
+              margin: 0 auto;
+          }
+
+          .hero-icon {
+              display: none;
+          }
+      }
+
+/* =================================
+   ESTILOS GENERALES
+================================= */
+
+body {
+    background-color: #f5f8fa;
+    font-family: Arial, sans-serif;
+    color: #263c46;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: white;
+    padding: 16px 0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.navbar-brand {
+    font-size: 23px;
+    font-weight: 700;
+    color: #167c70;
+}
+
+.navbar-brand:hover {
+    color: #105f56;
+}
+
+.nav-link {
+    color: #52666f;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #167c70;
+}
+
+/* BOTONES */
+
+.btn-especialidad {
+    background-color: #167c70;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 18px;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-especialidad:hover {
+    background-color: #105f56;
+    color: white;
+}
+
+/* =================================
+   CABECERA DE MÉDICOS
+================================= */
+
+.cabecera-medicos {
+    background: linear-gradient(120deg, #e1f2ef, #edf5f8);
+    border-radius: 20px;
+    padding: 45px 50px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.volver-link {
+    display: inline-block;
+    color: #167c70;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.volver-link:hover {
+    color: #105f56;
+}
+
+.hero-label {
+    display: block;
+    color: #167c70;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.cabecera-medicos h1 {
+    font-size: clamp(30px, 5vw, 42px);
+    font-weight: 700;
+    color: #193b45;
+    margin-bottom: 15px;
+}
+
+.cabecera-medicos p {
+    color: #60747c;
+    max-width: 650px;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+/* =================================
+   TÍTULOS
+================================= */
+
+.section-title {
+    font-weight: 700;
+    color: #193b45;
+}
+
+.section-subtitle {
+    color: #74858c;
+}
+
+/* =================================
+   TARJETAS DE MÉDICOS
+================================= */
+
+.medico-card {
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+    transition: all 0.25s ease;
+}
+
+.medico-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.medico-card .card-title {
+    font-weight: 700;
+    color: #193b45;
+    margin-bottom: 15px;
+}
+
+.icono-medico {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6f4f1;
+    color: #167c70;
+    border-radius: 14px;
+    font-size: 25px;
+    margin-bottom: 22px;
+}
+
+.medico-especialidad {
+    color: #167c70;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.medico-datos {
+    border-top: 1px solid #edf0f2;
+    padding-top: 15px;
+}
+
+.medico-datos p {
+    color: #74858c;
+    font-size: 14px;
+    margin-bottom: 10px;
+    overflow-wrap: anywhere;
+}
+
+.medico-datos i {
+    color: #167c70;
+}
+
+/* =================================
+   FOOTER
+================================= */
+
+footer {
+    background-color: #193b45;
+    color: #d5e2e5;
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+/* =================================
+   RESPONSIVE
+================================= */
+
+@media (max-width: 768px) {
+
+    .cabecera-medicos {
+        padding: 35px 25px;
+        text-align: left;
+    }
+
+}
+
+/*EStilos de reserva. php*/
+
+/* FORMULARIO DE RESERVA */
+
+.formulario-reserva {
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.04);
+}
+
+.formulario-reserva .form-label {
+    color: #193b45;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.campo-reserva {
+    border: 1px solid #dce5e8;
+    border-radius: 9px;
+    padding: 12px 14px;
+    color: #263c46;
+}
+
+.campo-reserva:focus {
+    border-color: #167c70;
+    box-shadow: 0 0 0 0.2rem rgba(22, 124, 112, 0.12);
+}
+
+textarea.campo-reserva {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.formulario-reserva .section-title {
+    font-size: 24px;
+}
+
+@media (max-width: 991px) {
+    .formulario-reserva {
+        margin-top: 5px;
+    }
+}
+/*FIn de estilos de reserva*/
+
+/*Estilos de Login*/
+
+/* LOGIN */
+
+.login-contenedor {
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 15px;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 460px;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+}
+
+.login-icono {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background-color: #e5f3f0;
+    color: #167c70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.login-card h2 {
+    color: #193b45;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.login-subtitulo {
+    color: #71838a;
+    font-size: 14px;
+}
+
+.login-registro {
+    color: #71838a;
+    font-size: 14px;
+}
+
+.login-registro a {
+    color: #167c70;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-registro a:hover {
+    text-decoration: underline;
+}
+/*Fin de estilos de login*/
+
+/*EStilos de registro*/
+
+/* REGISTRO */
+
+.registro-contenedor {
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 15px;
+}
+
+.registro-card {
+    width: 100%;
+    max-width: 520px;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+}
+
+.registro-card h2 {
+    color: #193b45;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/*Fin de estilos de registro*
+
+/*Estilos de mis ctias*/
+
+/* MIS CITAS */
+
+.cita-card {
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease;
+}
+
+.cita-card:hover {
+    transform: translateY(-4px);
+}
+
+.cita-card h5 {
+    color: #193b45;
+    font-weight: 700;
+}
+
+.cita-datos {
+    border-top: 1px solid #edf1f2;
+    padding-top: 15px;
+}
+
+.cita-datos p {
+    color: #60757d;
+    margin-bottom: 10px;
+}
+
+.cita-datos i {
+    color: #167c70;
+}
+
+.sin-citas {
+    background-color: white;
+    border-radius: 16px;
+    padding: 55px 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.04);
+}
+
+.sin-citas > i {
+    font-size: 50px;
+    color: #167c70;
+    margin-bottom: 15px;
+}
+
+.sin-citas h4 {
+    color: #193b45;
+    font-weight: 700;
+}
+
+.sin-citas p {
+    color: #71838a;
+}
+/*Fin de estilos de mis citas*/
